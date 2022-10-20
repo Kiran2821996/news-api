@@ -5,15 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
-.title-Cards{
-  display: flex;
-}
+
 .white{
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
 .dark{
   background-color: black;
   color: white;
+}
+.mainContainer{
+  display: flex;
+  height: 100vh;
+}
+.headContaner{
+  flex: 1;
+}
+.dataContainer{
+  height: 100vh;
+  flex: 3;
+  overflow-y: auto;
+  text-align: center;
+
+}
+.mainContainerDark{
+  display: flex;
+  height: 100vh;
+  background-color: black;
+}
+
+
+path .active{
+  background-color: blue;
 }

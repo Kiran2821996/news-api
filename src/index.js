@@ -6,6 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import Data from "./context.jsx/Data";
 import Likes from "./context.jsx/Likes";
 import Theme from "./context.jsx/Theme";
+import Search from "./context.jsx/Search";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,7 +15,9 @@ root.render(
       <Data>
         <Likes>
           <Theme>
-            <App />
+            <Search>
+              <App />
+            </Search>
           </Theme>
         </Likes>
       </Data>
